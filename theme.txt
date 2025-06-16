@@ -3,6 +3,10 @@ desktop-color: "#000000"
 
 terminal-box: "0 0 0 0"
 
++ pixmap highlight {
+  file = "heart.png"
+}
+
 + boot_menu {
   left = 700
   top = 370
