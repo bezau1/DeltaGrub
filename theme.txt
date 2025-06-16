@@ -1,0 +1,48 @@
+desktop-image: "background.png"
+desktop-color: "#000000"
+
+terminal-box: "0 0 0 0"
+
++ boot_menu {
+  left = 700
+  top = 370
+  width = 520
+  height = 100
+  item_height = 45
+  font = "fonts/determination.pf2"
+  item_color = "#FFFFFF"
+  selected_item_color = "#FF0000"
+  selected_item_pixmap_style = "highlight"
+}
+
++ label {
+  text = "Select your OS"
+  font = "fonts/determination.pf2"
+  color = "#FFFFFF"
+  top = 200
+  left = 850
+}
+
++ label {
+  text = "Ubuntu"
+  font = "fonts/determination.pf2"
+  color = "#FFFFFF"
+  top = 380
+  left = 720
+}
+
++ label {
+  text = "Windows 11"
+  font = "fonts/determination.pf2"
+  color = "#FFFFFF"
+  top = 425
+  left = 720
+}
+
++ label {
+  text = "No Save"
+  font = "fonts/determination.pf2"
+  color = "#AAAAAA"
+  top = 960
+  left = 865
+}
